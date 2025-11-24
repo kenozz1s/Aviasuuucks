@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AviaSucks — О... Офигительно дорогие билеты</title>
+    <!-- shrifti -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="me.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">AviaSucks 💎</div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#hero-section" class="active">Главная</a></li>
+                    <li><a href="#catalog-section" class="catalog">VIP-Каталог</a></li>
+                    <li><a href="#about-section" class="about">О нас</a></li>
+                    <li><a href="#contact-section" class="contact">Унизиться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- banner -->
+        <section class="hero" id="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-text">
+                <h1>Мы нашли самые дорогие рейсы. <br>Чтобы ты их НЕ купил.</h1>
+                <p class="subtitle">Зачем дешево? Когда можно бессмысленно дорого.</p>
+                <div class="hero-buttons">
+                    <a href="#catalog-section" class="btn btn-gold">Посмотреть дорогие билеты</a>
+                    <a href="#about-section" class="btn btn-outline">Плакать и смотреть цены</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- premkaa -->
+        <section class="advantages container">
+            <h2 class="section-title">Почему мы такие дорогие?</h2>
+            <div class="adv-grid">
+                <div class="adv-item glass-card">
+                    <div class="icon">✨</div>
+                    <h3>Рост цен +200%</h3>
+                    <p>Мы увеличиваем стоимость каждые сутки просто так. Потому что можем.</p>
+                </div>
+                <div class="adv-item glass-card">
+                    <div class="icon">💎</div>
+                    <h3>Только Ultra-Premium</h3>
+                    <p>У нас нет эконом-класса. Кресла сделаны из слез единорогов.</p>
+                </div>
+                <div class="adv-item glass-card">
+                    <div class="icon">🔥</div>
+                    <h3>Никаких скидок</h3>
+                    <p>Скидки — для слабаков. Мы принципиально берем больше.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<section class="catalog" id="catalog-section">
+    <main class="container">
+        <h2 class="section-title page-title">Выберите, на что не хватит денег</h2>
+        
+        <div class="catalog-grid">
+            <!-- goto -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Париж</div>
+                <h3>VIP-страдания</h3>
+                <p class="desc">В стоимость включён бокал воды из-под крана. И всё.</p>
+                <div class="price">2 999 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 2 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Дубай</div>
+                <h3>Platinum Flex Ultra</h3>
+                <p class="desc">Летим ровно 5 часов. Цена растёт каждый раз, когда ты моргаешь.</p>
+                <div class="price">3 999 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 3 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Усть-Каман</div>
+                <h3>Ретро-Спец-Рейс</h3>
+                <p class="desc">Рейс на старом кукурузнике. Адски дорого, потому что винтаж.</p>
+                <div class="price">1 499 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 4 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Л.А.</div>
+                <h3>Billionaire Class</h3>
+                <p class="desc">На борту подадут один кешью. Раз в час. На золотом блюдце.</p>
+                <div class="price">6 499 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 5 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">🚀 Алматы → Луна</div>
+                <h3>Билет в один конец</h3>
+                <p class="desc">Только для тех, кто устал настолько, что готов улететь навсегда.</p>
+                <div class="price">999 999 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 6 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Сингапур</div>
+                <h3>Overprice Edition</h3>
+                <p class="desc">Сиденье чуть мягче обычного. Но вы почувствуете разницу в чеке.</p>
+                <div class="price">4 129 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 7 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Токио</div>
+                <h3>Weeb-Premium</h3>
+                <p class="desc">Аниме на борту бесплатно не включено. Платите за каждую серию.</p>
+                <div class="price">4 699 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+
+            <!-- Рейс 8 -->
+            <article class="flight-card glass-card">
+                <div class="card-top">✈️ Алматы → Караганда</div>
+                <h3>VIP-шахтёр</h3>
+                <p class="desc">Чем ближе город — тем дороже билет. Парадокс роскоши.</p>
+                <div class="price">899 999 ₸</div>
+                <button class="btn btn-sm" onclick="buyFail()">Купить</button>
+            </article>
+        </div>
+    </main>
+    </section>
+
+    <section class="about" id="about-section">
+    <main class="container">
+        <section class="about-mission glass-card">
+            <h2>Кто мы?</h2>
+            <p class="large-text">AviaSucks — первый сервис, который честно говорит: мы не ищем дешёвые билеты, потому что нам лень.</p>
+            <hr class="gold-line">
+            <h3>Наша миссия</h3>
+            <p>Делать дорого. Очень дорого. Бессмысленно дорого. Мы верим, что высокий ценник — это лучший фильтр от скучных людей.</p>
+        </section>
+
+        <h2 class="section-title">Команда мечты</h2>
+        <div class="team-flex">
+            <div class="team-member glass-card">
+                <div class="avatar">🦁</div>
+                <h3>CEO</h3>
+                <p>Человек, который любит большие цифры. Очень большие.</p>
+            </div>
+            <div class="team-member glass-card">
+                <div class="avatar">📉</div>
+                <h3>Главный аналитик</h3>
+                <p>Считает нули, пока не устанет. Обычно устает на десятом миллиарде.</p>
+            </div>
+            <div class="team-member glass-card">
+                <div class="avatar">🎨</div>
+                <h3>UX-дизайнер</h3>
+                <p>Сделал кнопки такими дорогими, что ваш палец подумает дважды.</p>
+            </div>
+        </div>
+    </main>
+    </section>
+
+    <section class="contact" id="contact-section">
+    <main class="container contact-page">
+        <div class="form-wrapper glass-card">
+            <h2>Хотите улететь красиво?</h2>
+            <p>Заполните форму. Или не заполняйте — всё равно дорого.</p>
+
+            <form class="luxury-form" action="#">
+                <div class="form-group">
+                    <label>Ваше имя (если оно имеет вес):</label>
+                    <input type="text" placeholder="Илон Маск?">
+                </div>
+
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" placeholder="rich_guy@money.com">
+                </div>
+
+                <div class="form-group">
+                    <label>Сообщение:</label>
+                    <textarea placeholder="Оставь заявку, если хочешь потратить деньги красиво..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-gold full-width">Оплатить моральные страдания</button>
+            </form>
+        </div>
+    </main>
+    </section>
+
+
+
+    <!-- Футер -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 AviaSucks. Ваши деньги — теперь наши деньги.</p>
+        </div>
+    </footer>
+
+    <script src="o0o0o0.js"></script>
+</body>
+</html>
